@@ -1,0 +1,164 @@
+/* Header */
+
+h1,p {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+header h2 { 
+    background-color:rgb(255, 255, 21);
+    text-align: center;
+}
+
+header p {
+    color: rgb(255, 255, 21);
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu */
+
+header nav {
+    width: 100%;
+    line-height: 60px;
+}
+
+header nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+header nav.black ul {
+    background: #fff;
+}
+
+header nav.black ul li a {
+  color: #fff;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 16px 40px;; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: rgb(255, 255, 21);
+    transition: 1s;
+}
+
+/* Foto */
+
+.foto {
+    float: left;
+    width: calc(50% - 60px);
+    margin: 30px;
+}
+
+/* Producten */
+
+main item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+main img {
+    order: 1;
+    width: 50%;
+    flex: 50%;
+}
+
+main item div {
+    order: 2;
+    flex: 50%;
+    text-align: center;
+}
+
+main span {
+    display: flex;
+    direction: row;
+}
+
+main h2 {
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+main ul {
+    display: inline;
+    margin: auto;
+    list-style: none;
+    text-align: left;
+}
+
+main item {
+    margin-bottom: 20px;
+}
+
+h3{
+    color: rgb(255, 255, 21);
+}
+
+/* Invul formulier */
+
+input, textarea {
+	padding:5px; 
+	border:2px solid rgb(255, 255, 21); 
+	border-radius: 5px;
+	width:250px;
+	font:12px Verdana;
+	margin-bottom:10px;
+}
+
+input[type=submit] {
+	padding:5px 15px; 
+	background:rgb(255, 255, 21); 
+	border:0 none;
+	cursor:pointer;
+	width:100px;
+	border-radius: 5px; 
+
+}
+	
+input[type=submit]:hover{
+	padding:5px 15px; 
+    background: rgb(255, 255, 21);
+    transform: scale(1.5);
+    transition: all, 350ms ease; 
+}
+
+h4 {
+    color: rgb(255, 255, 21);
+}
+
+
+
+
