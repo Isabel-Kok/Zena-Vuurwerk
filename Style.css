@@ -119,6 +119,13 @@ main ul {
     text-align: left;
 }
 
+ul {
+    color:#fff;
+    display: flex;
+    line-height: 2;
+
+}
+
 main item {
     margin-bottom: 20px;
 }
