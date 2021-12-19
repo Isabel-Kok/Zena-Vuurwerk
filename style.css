@@ -10,6 +10,7 @@ h1,p {
 
 h1 {
     text-align: center;
+    margin: 20px;
 }
 
 body {
@@ -30,6 +31,10 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+p {
+    margin: 10px;
 }
 
 /* Menu */
@@ -77,14 +82,6 @@ header nav ul li a {
 header nav ul li a:hover {
     color: rgb(255, 255, 21);
     transition: 1s;
-}
-
-/* Foto */
-
-.foto {
-    float: left;
-    width: calc(50% - 60px);
-    margin: 30px;
 }
 
 /* Producten */
@@ -141,6 +138,10 @@ h3{
 
 main p {
     text-align: center;
+}
+
+item div:first-child {
+    max-width: 100%;
 }
 
 /* Invul formulier */
