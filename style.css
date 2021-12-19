@@ -59,7 +59,6 @@ header nav ul {
     padding: 0;
     text-align: center;
     margin: 0;
-    padding-right: 40px;
     transition: 1s;
 }
 
@@ -75,7 +74,6 @@ header nav ul li {
     display: inline-block;
     padding: 16px 40px; 
     color: #fff;
-
 }
 
 header nav ul li a {
@@ -212,26 +210,40 @@ footer a {
 
 /* responsive*/
 
-@media(max-width: 1279px) {
-
+@media(max-width: 900px) {
+    header nav ul li {
+        padding: 16px; 
+    }
 }
 
-@media(max-width: 1119px) {
-    
+@media(max-width: 655px) {
+    header nav ul li {
+        padding: 16px 5px; 
+    }
+
+    header img {
+        max-width: 300px;
+    }
+
+    main item {
+        display: block;
+    }
+
+    main item div {
+        margin: 10px;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+    footer a {
+        line-height: 40px;
+    }
 }
 
-@media(max-width: 959px) {
-    
-}
-
-@media(max-width: 799px) {
-    
-}
-
-@media(max-width: 639px) {
-    
-}
-
-@media(max-width: 479px) {
-    
+@media(max-width: 545px) {
+    header nav ul li {
+        padding: 16px 1px; 
+    }
 }
