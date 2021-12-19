@@ -140,8 +140,12 @@ main p {
     text-align: center;
 }
 
-item div:first-child {
-    max-width: 100%;
+/* img */
+
+.foto {
+    float: left;
+    width: calc(50% - 60px);
+    margin: 30px;
 }
 
 /* Invul formulier */
@@ -174,8 +178,13 @@ input[type=submit]:hover{
 
 h4 {
     color: rgb(255, 255, 21);
+    text-align: center;
+    margin: 10px;
 }
 
+form {
+    text-align: center;
+}
 /* Footer */
 
 footer {
