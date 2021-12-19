@@ -203,3 +203,29 @@ footer a {
     float: right;
     margin-right: 10px;
 }
+
+/* responsive*/
+
+@media(max-width: 1279px) {
+
+}
+
+@media(max-width: 1119px) {
+    
+}
+
+@media(max-width: 959px) {
+    
+}
+
+@media(max-width: 799px) {
+    
+}
+
+@media(max-width: 639px) {
+    
+}
+
+@media(max-width: 479px) {
+    
+}
