@@ -90,7 +90,7 @@ header nav ul li a:hover {
 
 /* Producten */
 
-main item {
+main section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,7 +102,7 @@ main img {
     flex: 50%;
 }
 
-main item div {
+main section div {
     order: 2;
     flex: 50%;
     text-align: center;
@@ -114,7 +114,7 @@ main h2 {
     text-align: center;
 }
 
-main item {
+main section {
     margin-bottom: 20px;
 }
 
@@ -218,11 +218,11 @@ footer a {
         max-width: 300px;
     }
 
-    main item {
+    main section {
         display: block;
     }
 
-    main item div {
+    main section div {
         margin: 10px;
     }
 
