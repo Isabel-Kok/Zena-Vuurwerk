@@ -108,28 +108,10 @@ main item div {
     text-align: center;
 }
 
-main span {
-    display: flex;
-    direction: row;
-}
-
 main h2 {
     color: white;
     margin-left: 10px;
     text-align: center;
-}
-
-main ul {
-    display: inline;
-    margin: auto;
-    list-style: none;
-    text-align: left;
-    color: #fff;
-}
-
-ul {
-    color:#fff;
-    line-height: 2;
 }
 
 main item {
@@ -142,6 +124,17 @@ h3{
 
 main p {
     text-align: center;
+}
+
+main table {
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+main table td {
+    padding: 5px;
 }
 
 /* img */
